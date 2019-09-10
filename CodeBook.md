@@ -21,9 +21,9 @@ Most of the variables are data frames read from the source data named as their r
 
 Step 2 creates `x`, `y`, and `sj` from binding x, y, and subject data respectively. `data` is created from combining these three.
 
-`tidy` selects from `data` the mean and standard deviation columns and is the working table in which the script relabels its columns using descriptive variables.
+In steps 3-5, `tidy` is created by selecting from `data` the mean and standard deviation columns and is the working table in which the script relabels its columns using descriptive variables.
 
-Finally, `averages` uses `tidy` to create a new independent data set with the average of each variable for each activity and each subject.
+Finally, in step 6 `averages` uses `tidy` to create a new independent data set with the average of each variable for each activity and each subject.
 
 
 
