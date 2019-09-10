@@ -1,5 +1,5 @@
 # Code Book
-This code book documents the methods and variables used in the script `run_analysis.R`
+This code book documents the methods and variables used in the script `run_analysis.R`, and any updates to codebook to the original data.
 
 The link to the original dataset that is used can be found here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -24,6 +24,17 @@ Step 2 creates `x`, `y`, and `sj` from binding x, y, and subject data respective
 In steps 3-5, `tidy` is created by selecting from `data` the mean and standard deviation columns and is the working table in which the script relabels its columns using descriptive variables.
 
 Finally, in step 6 `averages` uses `tidy` to create a new independent data set with the average of each variable for each activity and each subject.
+
+## Codebook update
+As mentioned above, `activity` has been replaced with a description, which can be of:
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+The remaning data variables represent the average/mean of their respective original variables, grouped by activity and subject.
 
 
 
