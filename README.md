@@ -15,6 +15,6 @@ With the above data downloaded and unzipped in the working folder, the `run_anal
 3. Selects mean and standard deviation measurements
 4. Changes the activity codes to descriptive ones
 5. Relabels the variable names with descriptive ones
-6. Creates a data set with the average of each variable for each activity and subject, called tidydataset.txt in the working folder.
+6. Creates a data set with the average of each variable for each activity and subject, called `tidydataset.txt` in the working folder.
 
 `CodeBook.md` describes the variables, the data, and any transformations or work that was performed to clean up the data.
