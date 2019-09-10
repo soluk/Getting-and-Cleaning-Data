@@ -27,16 +27,11 @@ Finally, in step 6 `averages` uses `tidy` to create a new independent data set w
 
 ## Codebook update
 As mentioned above, `activity` has been replaced with a description, which can be of:
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
 The remaning data variables represent the average/mean of their respective original variables, grouped by activity and subject.
-
-
-
-
-
